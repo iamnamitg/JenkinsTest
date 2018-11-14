@@ -1,0 +1,6 @@
+framework module Pods_Swiggy {
+  umbrella header "Pods-Swiggy-umbrella.h"
+
+  export *
+  module * { export * }
+}

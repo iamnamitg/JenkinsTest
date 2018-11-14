@@ -8,20 +8,44 @@
 
 /* Begin PBXBuildFile section */
 		089E79B3218194A2002E831E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 089E79B2218194A2002E831E /* AppDelegate.swift */; };
-		089E79B5218194A2002E831E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 089E79B4218194A2002E831E /* ViewController.swift */; };
+		089E79B5218194A2002E831E /* PizzaSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 089E79B4218194A2002E831E /* PizzaSelectionViewController.swift */; };
 		089E79B8218194A2002E831E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 089E79B6218194A2002E831E /* Main.storyboard */; };
 		089E79BA218194A5002E831E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 089E79B9218194A5002E831E /* Assets.xcassets */; };
 		089E79BD218194A5002E831E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 089E79BB218194A5002E831E /* LaunchScreen.storyboard */; };
+		089E79C721819577002E831E /* PizzaSelectionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 089E79C521819577002E831E /* PizzaSelectionTableViewCell.swift */; };
+		089E79C821819577002E831E /* PizzaSelectionTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 089E79C621819577002E831E /* PizzaSelectionTableViewCell.xib */; };
+		089E79D021819F95002E831E /* Variant_groups.swift in Sources */ = {isa = PBXBuildFile; fileRef = 089E79CB21819F95002E831E /* Variant_groups.swift */; };
+		089E79D121819F95002E831E /* Variations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 089E79CC21819F95002E831E /* Variations.swift */; };
+		089E79D221819F95002E831E /* VariantsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 089E79CD21819F95002E831E /* VariantsModel.swift */; };
+		089E79D321819F95002E831E /* Variants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 089E79CE21819F95002E831E /* Variants.swift */; };
+		089E79D421819F95002E831E /* Exclude_list.swift in Sources */ = {isa = PBXBuildFile; fileRef = 089E79CF21819F95002E831E /* Exclude_list.swift */; };
+		089E79D621819FFD002E831E /* VariantsFetchService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 089E79D521819FFD002E831E /* VariantsFetchService.swift */; };
+		089E79D82181A05E002E831E /* ServiceErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 089E79D72181A05E002E831E /* ServiceErrors.swift */; };
+		089E79DB2181A094002E831E /* PizzaSelectionUsecase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 089E79DA2181A094002E831E /* PizzaSelectionUsecase.swift */; };
+		FF66FAF1B4189804290F52CA /* Pods_Swiggy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93FBD5C247E542374EA6B584 /* Pods_Swiggy.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		089E79AF218194A2002E831E /* Swiggy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swiggy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		089E79B2218194A2002E831E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		089E79B4218194A2002E831E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		089E79B4218194A2002E831E /* PizzaSelectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PizzaSelectionViewController.swift; sourceTree = "<group>"; };
 		089E79B7218194A2002E831E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		089E79B9218194A5002E831E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		089E79BC218194A5002E831E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		089E79BE218194A5002E831E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		089E79C521819577002E831E /* PizzaSelectionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PizzaSelectionTableViewCell.swift; sourceTree = "<group>"; };
+		089E79C621819577002E831E /* PizzaSelectionTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PizzaSelectionTableViewCell.xib; sourceTree = "<group>"; };
+		089E79CB21819F95002E831E /* Variant_groups.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Variant_groups.swift; sourceTree = "<group>"; };
+		089E79CC21819F95002E831E /* Variations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Variations.swift; sourceTree = "<group>"; };
+		089E79CD21819F95002E831E /* VariantsModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VariantsModel.swift; sourceTree = "<group>"; };
+		089E79CE21819F95002E831E /* Variants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Variants.swift; sourceTree = "<group>"; };
+		089E79CF21819F95002E831E /* Exclude_list.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Exclude_list.swift; sourceTree = "<group>"; };
+		089E79D521819FFD002E831E /* VariantsFetchService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VariantsFetchService.swift; sourceTree = "<group>"; };
+		089E79D72181A05E002E831E /* ServiceErrors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceErrors.swift; sourceTree = "<group>"; };
+		089E79DA2181A094002E831E /* PizzaSelectionUsecase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PizzaSelectionUsecase.swift; sourceTree = "<group>"; };
+		93FBD5C247E542374EA6B584 /* Pods_Swiggy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Swiggy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADF3725348C2B460EBEC73EA /* Pods-Swiggy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swiggy.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Swiggy/Pods-Swiggy.debug.xcconfig"; sourceTree = "<group>"; };
+		BBBF0F3C19F55E0B9A11B0E2 /* Pods-Swiggy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swiggy.release.xcconfig"; path = "Pods/Target Support Files/Pods-Swiggy/Pods-Swiggy.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF66FAF1B4189804290F52CA /* Pods_Swiggy.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +65,8 @@
 			children = (
 				089E79B1218194A2002E831E /* Swiggy */,
 				089E79B0218194A2002E831E /* Products */,
+				115A3A4D0A8DA10FB9AE3B69 /* Pods */,
+				DBE07387B84B2814720E60E8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +81,73 @@
 		089E79B1218194A2002E831E /* Swiggy */ = {
 			isa = PBXGroup;
 			children = (
+				089E79D92181A07E002E831E /* Usecase */,
+				089E79CA21819F71002E831E /* Models */,
+				089E79C92181967D002E831E /* WebServices */,
+				089E79C421819555002E831E /* Views */,
 				089E79B2218194A2002E831E /* AppDelegate.swift */,
-				089E79B4218194A2002E831E /* ViewController.swift */,
+				089E79B4218194A2002E831E /* PizzaSelectionViewController.swift */,
 				089E79B6218194A2002E831E /* Main.storyboard */,
 				089E79B9218194A5002E831E /* Assets.xcassets */,
 				089E79BB218194A5002E831E /* LaunchScreen.storyboard */,
 				089E79BE218194A5002E831E /* Info.plist */,
 			);
 			path = Swiggy;
+			sourceTree = "<group>";
+		};
+		089E79C421819555002E831E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				089E79C521819577002E831E /* PizzaSelectionTableViewCell.swift */,
+				089E79C621819577002E831E /* PizzaSelectionTableViewCell.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		089E79C92181967D002E831E /* WebServices */ = {
+			isa = PBXGroup;
+			children = (
+				089E79D521819FFD002E831E /* VariantsFetchService.swift */,
+				089E79D72181A05E002E831E /* ServiceErrors.swift */,
+			);
+			path = WebServices;
+			sourceTree = "<group>";
+		};
+		089E79CA21819F71002E831E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				089E79CF21819F95002E831E /* Exclude_list.swift */,
+				089E79CD21819F95002E831E /* VariantsModel.swift */,
+				089E79CB21819F95002E831E /* Variant_groups.swift */,
+				089E79CE21819F95002E831E /* Variants.swift */,
+				089E79CC21819F95002E831E /* Variations.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		089E79D92181A07E002E831E /* Usecase */ = {
+			isa = PBXGroup;
+			children = (
+				089E79DA2181A094002E831E /* PizzaSelectionUsecase.swift */,
+			);
+			path = Usecase;
+			sourceTree = "<group>";
+		};
+		115A3A4D0A8DA10FB9AE3B69 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ADF3725348C2B460EBEC73EA /* Pods-Swiggy.debug.xcconfig */,
+				BBBF0F3C19F55E0B9A11B0E2 /* Pods-Swiggy.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DBE07387B84B2814720E60E8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				93FBD5C247E542374EA6B584 /* Pods_Swiggy.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +157,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 089E79C1218194A5002E831E /* Build configuration list for PBXNativeTarget "Swiggy" */;
 			buildPhases = (
+				1E8792F40992272A94419066 /* [CP] Check Pods Manifest.lock */,
 				089E79AB218194A2002E831E /* Sources */,
 				089E79AC218194A2002E831E /* Frameworks */,
 				089E79AD218194A2002E831E /* Resources */,
+				7AA555948C5B3D5C45B0C268 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,18 +213,73 @@
 				089E79BD218194A5002E831E /* LaunchScreen.storyboard in Resources */,
 				089E79BA218194A5002E831E /* Assets.xcassets in Resources */,
 				089E79B8218194A2002E831E /* Main.storyboard in Resources */,
+				089E79C821819577002E831E /* PizzaSelectionTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1E8792F40992272A94419066 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Swiggy-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7AA555948C5B3D5C45B0C268 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Swiggy/Pods-Swiggy-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireObjectMapper/AlamofireObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/PromiseKit/PromiseKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PromiseKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Swiggy/Pods-Swiggy-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		089E79AB218194A2002E831E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				089E79B5218194A2002E831E /* ViewController.swift in Sources */,
+				089E79DB2181A094002E831E /* PizzaSelectionUsecase.swift in Sources */,
+				089E79C721819577002E831E /* PizzaSelectionTableViewCell.swift in Sources */,
+				089E79D321819F95002E831E /* Variants.swift in Sources */,
+				089E79D421819F95002E831E /* Exclude_list.swift in Sources */,
+				089E79B5218194A2002E831E /* PizzaSelectionViewController.swift in Sources */,
+				089E79D121819F95002E831E /* Variations.swift in Sources */,
+				089E79D621819FFD002E831E /* VariantsFetchService.swift in Sources */,
+				089E79D82181A05E002E831E /* ServiceErrors.swift in Sources */,
 				089E79B3218194A2002E831E /* AppDelegate.swift in Sources */,
+				089E79D021819F95002E831E /* Variant_groups.swift in Sources */,
+				089E79D221819F95002E831E /* VariantsModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,15 +423,13 @@
 		};
 		089E79C2218194A5002E831E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ADF3725348C2B460EBEC73EA /* Pods-Swiggy.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 76M87WER7V;
 				INFOPLIST_FILE = Swiggy/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.namitgupta.Swiggy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
@@ -298,15 +439,13 @@
 		};
 		089E79C3218194A5002E831E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BBBF0F3C19F55E0B9A11B0E2 /* Pods-Swiggy.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 76M87WER7V;
 				INFOPLIST_FILE = Swiggy/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.namitgupta.Swiggy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
